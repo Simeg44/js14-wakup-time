@@ -1,0 +1,77 @@
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.outerShell {
+	background: #4f4f4f;
+	width: 60%;
+	height: 230px;
+	margin: auto;
+	margin-top: 20%;
+	border-radius: 175px 175px 5px 5px;
+}
+
+.innerShell {
+	background: black;
+	width: 58%;
+	height: 81%;
+	margin: auto;
+	border-radius: 30px 30px 50px 50px;
+}
+
+.amPm {
+	color: white;
+	padding-top: 13px;
+	text-align: right;
+	float: left;
+	font-size: 12px;
+}
+
+.amPm p {
+	padding: 17px 17px 0px 17px;
+}
+
+.clockScreen {
+	background: #6B0404;
+	width: 69%;
+	height: 100px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	color: #F43428;
+	text-align: right;
+	font-size: 88px;
+	letter-spacing: 7px;
+}
+
+.radioLabel {
+	color: white;
+	clear: both;
+	float: left;
+	text-align: right;
+	margin-top: -5px;
+	margin-left: 55px;
+	font-size: 12px;
+}
+
+.amRadio, .fmRadio {
+	color: white;
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 12px;
+	word-spacing: 5px;
+	margin-top: -5px;
+	margin-bottom: -8px;
+}
+
+.indicator {
+	display: none;
+	background: #F43428;
+	border-radius: 100px;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 251px;
+	left: 545px;
+}
